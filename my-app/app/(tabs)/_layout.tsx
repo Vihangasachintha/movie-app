@@ -5,6 +5,18 @@ import {images} from "@/constants/images";
 import {icons} from "@/constants/icons";
 import {ImageBackground, Image} from "react-native";
 
+const TabIcon = () => {
+  return(
+      <ImageBackground
+          source={images.highlight}
+          className="flex flex-row w-full flex-1 min-w-[112px] min-h-14 mt-2 justify-center items-center rounded-full overflow-hidden"
+      >
+          <Image source={icons.home} tintColor="#151312" className="size-5"/>
+          <Text className="text-secondary text-base font-semibold ml-2">Home</Text>
+      </ImageBackground>
+  )
+}
+
 const _Layout = () => {
     return (
         <Tabs>
@@ -15,13 +27,7 @@ const _Layout = () => {
                     headerShown: false,
                     tabBarIcon: ({focused}) => (
                         <>
-                            <ImageBackground
-                                source={images.highlight}
-                                className="flex flex-row w-full flex-1 min-w-[112px] min-h-14 mt-2 justify-center items-center rounded-full overflow-hidden"
-                            >
-                                <Image source={icons.home} tintColor="#151312" className="size-5"/>
-                                <Text className="text-secondary text-base font-semibold ml-2">Home</Text>
-                            </ImageBackground>
+                            <TabIcon/>
                         </>
                     )
                 }}
