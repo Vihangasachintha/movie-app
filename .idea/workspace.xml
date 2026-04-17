@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="48b6628b-e857-4cd4-bce1-ac59575d458e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/services/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/services/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/services/useFetch.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/services/useFetch.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +98,7 @@
       <workItem from="1776354993568" duration="11819000" />
       <workItem from="1776405393076" duration="2424000" />
       <workItem from="1776407859422" duration="5613000" />
-      <workItem from="1776424517629" duration="500000" />
+      <workItem from="1776424517629" duration="1385000" />
     </task>
     <servers />
   </component>
