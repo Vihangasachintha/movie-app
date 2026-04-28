@@ -7,9 +7,8 @@
     <list default="true" id="48b6628b-e857-4cd4-bce1-ac59575d458e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/app/(tabs)/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/app/(tabs)/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/app/(tabs)/search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/components/SearchBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/components/SearchBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/services/appwrite.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/services/appwrite.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +21,13 @@
     </persistenceIdMap>
   </component>
   <component name="CopilotUserSelectedChatMode">
-    <option name="chatModeId" value="Ask" />
+    <option name="chatModeId" value="Agent" />
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="agent-panel" value="Claude Haiku 4.5" />
+      <entry key="chat-panel" value="Claude Haiku 4.5" />
+    </selectedModels>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -122,12 +127,24 @@
       <workItem from="1776785430439" duration="9176000" />
       <workItem from="1776797466348" duration="249000" />
       <workItem from="1776823584679" duration="229000" />
-      <workItem from="1777261757005" duration="4504000" />
+      <workItem from="1777261757005" duration="6461000" />
+      <workItem from="1777350283745" duration="6128000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
