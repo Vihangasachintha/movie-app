@@ -25,7 +25,6 @@ const Profile = () => {
                       resizeMode="contain"
                   />
               </TouchableOpacity>
-
           </View>
 
           <View className="flex-col items-center justify-center">
@@ -52,6 +51,22 @@ const Profile = () => {
               <View>
                   <Text className="text-white text-sm">johndoe@moviehub</Text>
               </View>
+          </View>
+
+          <View className="flex-col mt-3">
+              <View className="flex-row justify-between">
+                  <Text className="text-white font-bold text-lg">Watch History</Text>
+                  <Text className="text-accent mt-1">View All</Text>
+              </View>
+              <View className="h-64 w-full">
+                  {/*History movie cards*/}
+              </View>
+          </View>
+
+          <View className="w-full px-5 py-3 flex-row items-center justify-center">
+              <TouchableOpacity className="border border-red-600 rounded-full w-full">
+                  <Text className="text-red-500 text-center text-lg font-bold">SIGN OUT</Text>
+              </TouchableOpacity>
           </View>
 
       </SafeAreaView>
